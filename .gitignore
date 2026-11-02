@@ -5,6 +5,4 @@ venv/
 .env
 .DS_Store
 
-model.pkl
-vectorizer.pkl
 spam_history.db

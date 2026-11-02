@@ -1,0 +1,94 @@
+{
+    "best_model": "Logistic Regression",
+    "dataset_size": 5572,
+    "training_samples": 4457,
+    "testing_samples": 1115,
+    "models": {
+        "Multinomial Naive Bayes": {
+            "accuracy": 96.77,
+            "precision": 100.0,
+            "recall": 75.84,
+            "f1_score": 86.26,
+            "confusion_matrix": [
+                [
+                    966,
+                    0
+                ],
+                [
+                    36,
+                    113
+                ]
+            ],
+            "classification_report": {
+                "Normal": {
+                    "precision": 0.9640718562874252,
+                    "recall": 1.0,
+                    "f1-score": 0.9817073170731707,
+                    "support": 966.0
+                },
+                "Spam": {
+                    "precision": 1.0,
+                    "recall": 0.7583892617449665,
+                    "f1-score": 0.8625954198473282,
+                    "support": 149.0
+                },
+                "accuracy": 0.967713004484305,
+                "macro avg": {
+                    "precision": 0.9820359281437125,
+                    "recall": 0.8791946308724832,
+                    "f1-score": 0.9221513684602495,
+                    "support": 1115.0
+                },
+                "weighted avg": {
+                    "precision": 0.9688730162992403,
+                    "recall": 0.967713004484305,
+                    "f1-score": 0.9657901218385065,
+                    "support": 1115.0
+                }
+            }
+        },
+        "Logistic Regression": {
+            "accuracy": 97.31,
+            "precision": 88.39,
+            "recall": 91.95,
+            "f1_score": 90.13,
+            "confusion_matrix": [
+                [
+                    948,
+                    18
+                ],
+                [
+                    12,
+                    137
+                ]
+            ],
+            "classification_report": {
+                "Normal": {
+                    "precision": 0.9875,
+                    "recall": 0.9813664596273292,
+                    "f1-score": 0.9844236760124611,
+                    "support": 966.0
+                },
+                "Spam": {
+                    "precision": 0.8838709677419355,
+                    "recall": 0.9194630872483222,
+                    "f1-score": 0.9013157894736842,
+                    "support": 149.0
+                },
+                "accuracy": 0.9730941704035875,
+                "macro avg": {
+                    "precision": 0.9356854838709678,
+                    "recall": 0.9504147734378257,
+                    "f1-score": 0.9428697327430726,
+                    "support": 1115.0
+                },
+                "weighted avg": {
+                    "precision": 0.9736518154202227,
+                    "recall": 0.9730941704035875,
+                    "f1-score": 0.9733177790669204,
+                    "support": 1115.0
+                }
+            }
+        }
+    }
+}
